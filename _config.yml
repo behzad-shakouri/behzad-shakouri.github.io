@@ -1,0 +1,21 @@
+title: "وبلاگ شخصی من"
+description: "جایی برای نوشتن، فکر کردن و یادداشت‌های شخصی"
+
+# قالب Minimal Mistakes
+remote_theme: "mmistakes/minimal-mistakes"
+
+# پلاگین‌های لازم برای GitHub Pages
+plugins:
+  - jekyll-include-cache
+
+# تنظیمات فارسی و راست‌چین
+locale: "fa"
+direction: "rtl"
+
+# اطلاعات نویسنده
+author:
+  name: "Behzad Shakouri"
+  bio: "وبلاگ‌نویس، علاقه‌مند به اپن‌سورس و سیستم‌فکری"
+
+# فعال‌سازی پروفایل نویسنده در صفحه اصلی
+author_profile: true
