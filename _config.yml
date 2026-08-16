@@ -19,3 +19,12 @@ author:
 
 # فعال‌سازی پروفایل نویسنده در صفحه اصلی
 author_profile: true
+
+navigation:
+  - title: "خانه"
+    url: /
+  - title: "درباره من"
+    url: /about/
+  - title: "یادداشت‌ها"
+    url: /posts/
+
