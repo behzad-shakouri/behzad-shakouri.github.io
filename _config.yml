@@ -20,11 +20,14 @@ author:
 # فعال‌سازی پروفایل نویسنده در صفحه اصلی
 author_profile: true
 
-navigation:
-  - title: "خانه"
-    url: /
-  - title: "درباره من"
-    url: /about/
-  - title: "یادداشت‌ها"
-    url: /posts/
+# فعال‌سازی منوی بالای سایت
+header:
+  nav:
+    - title: "خانه"
+      url: /
+    - title: "درباره من"
+      url: /about/
+    - title: "یادداشت‌ها"
+      url: /posts/
 
+# اگر خواستی بعداً منوی بیشتری اضافه کنیم، همین‌جا اضافه می‌شود
