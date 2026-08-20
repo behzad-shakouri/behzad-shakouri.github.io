@@ -49,3 +49,6 @@ recent_posts:
 # فعال‌سازی پست قبلی/بعدی
 pagination:
   enabled: true
+  prev_label: "پست قبلی"
+  next_label: "پست بعدی"
+
