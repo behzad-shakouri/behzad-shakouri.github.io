@@ -32,5 +32,20 @@ header:
     - title: "تماس"
       url: /contact/
 
+# حالت تاریک/روشن بر اساس سیستم + دکمهٔ تغییر حالت
+minimal_mistakes_skin: "auto"
+enable_darkmode_toggle: true
 
-# اگر خواستی بعداً منوی بیشتری اضافه کنیم، همین‌جا اضافه می‌شود
+# فعال‌سازی نوار کناری
+sidebar:
+  nav: "docs"
+  sticky: true
+
+# نمایش سه پست آخر در نوار کناری
+recent_posts:
+  enabled: true
+  count: 3
+
+# فعال‌سازی پست قبلی/بعدی
+pagination:
+  enabled: true
