@@ -32,8 +32,8 @@ header:
     - title: "تماس"
       url: /contact/
 
-# حالت تاریک/روشن بر اساس سیستم + دکمهٔ تغییر حالت
-minimal_mistakes_skin: "auto"
+# حالت روشن پیش‌فرض + دکمهٔ تغییر حالت
+minimal_mistakes_skin: "default"
 enable_darkmode_toggle: true
 
 # فعال‌سازی نوار کناری
