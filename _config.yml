@@ -21,16 +21,16 @@ author:
 author_profile: true
 
 # فعال‌سازی منوی بالای سایت
-header:
-  nav:
-    - title: "خانه"
-      url: /
-    - title: "درباره من"
-      url: /about/
-    - title: "یادداشت‌ها"
-      url: /posts/
-    - title: "تماس"
-      url: /contact/
+navigation:
+  - title: "خانه"
+    url: /
+  - title: "درباره من"
+    url: /about/
+  - title: "یادداشت‌ها"
+    url: /posts/
+  - title: "تماس"
+    url: /contact/
+
 
 # حالت روشن پیش‌فرض + دکمهٔ تغییر حالت
 minimal_mistakes_skin: "default"
