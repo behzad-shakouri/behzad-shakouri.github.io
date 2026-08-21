@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 title: "خانه"
 author_profile: true
 ---
