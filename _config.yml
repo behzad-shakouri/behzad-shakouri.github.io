@@ -34,8 +34,11 @@ navigation:
     url: /tags/
   - title: "آرشیو"
     url: /archive/
+  - title: "جستجو"
+    url: /search/
   - title: "تماس"
     url: /contact/
+
 
 
 
