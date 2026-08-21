@@ -28,6 +28,8 @@ navigation:
     url: /about/
   - title: "یادداشت‌ها"
     url: /posts/
+  - title: "دسته‌بندی‌ها"
+    url: /categories/
   - title: "تماس"
     url: /contact/
 
