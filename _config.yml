@@ -28,8 +28,6 @@ author_profile: true
 navigation:
   - title: "خانه"
     url: /
-  - title: "درباره من"
-    url: /about/
   - title: "یادداشت‌ها"
     url: /posts/
   - title: "دسته‌بندی‌ها"
@@ -38,12 +36,10 @@ navigation:
     url: /tags/
   - title: "آرشیو"
     url: /archive/
-  - title: "جستجو"
-    url: /search/
   - title: "تماس"
     url: /contact/
-  - title: "RSS"
-    url: /feed.xml
+  - title: "درباره من"
+    url: /about/
   
 
 
