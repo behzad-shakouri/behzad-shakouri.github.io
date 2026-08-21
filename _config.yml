@@ -30,8 +30,11 @@ navigation:
     url: /posts/
   - title: "دسته‌بندی‌ها"
     url: /categories/
+  - title: "برچسب‌ها"
+    url: /tags/
   - title: "تماس"
     url: /contact/
+
 
 
 # حالت روشن پیش‌فرض + دکمهٔ تغییر حالت
