@@ -32,8 +32,11 @@ navigation:
     url: /categories/
   - title: "برچسب‌ها"
     url: /tags/
+  - title: "آرشیو"
+    url: /archive/
   - title: "تماس"
     url: /contact/
+
 
 
 
