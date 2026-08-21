@@ -1,0 +1,25 @@
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button>
+          <div class="navicon"></div>
+        </button>
+        <ul class="visible-links">
+          {% for link in site.navigation %}
+          <li class="masthead__menu-item">
+            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+
+    <!-- باکس جستجو -->
+    <form action="/search/" method="get" class="search-form" style="display:inline-block; margin-left:15px;">
+      <input type="text" name="q" placeholder="جستجو..." style="padding:6px 10px; border-radius:5px; border:1px solid #ccc;">
+    </form>
+
+  </div>
+</div>
