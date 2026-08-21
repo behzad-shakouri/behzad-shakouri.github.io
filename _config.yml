@@ -36,14 +36,9 @@ navigation:
     url: /tags/
   - title: "آرشیو"
     url: /archive/
-  - title: "تماس"
-    url: /contact/
   - title: "درباره من"
     url: /about/
   
-
-
-
 
 
 # حالت روشن پیش‌فرض + دکمهٔ تغییر حالت
