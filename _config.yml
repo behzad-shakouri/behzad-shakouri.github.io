@@ -38,6 +38,9 @@ navigation:
     url: /search/
   - title: "تماس"
     url: /contact/
+  - title: "RSS"
+    url: /feed.xml
+  
 
 
 
