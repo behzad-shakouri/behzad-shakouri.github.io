@@ -63,3 +63,5 @@ pagination:
   prev_label: "پست قبلی"
   next_label: "پست بعدی"
 
+atom_feed:
+  path: /feed.xml
