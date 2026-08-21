@@ -1,5 +1,8 @@
 title: "وبلاگ شخصی من"
+subtitle: "یادداشت‌ها، تجربه‌ها و مسیر یادگیری"
 description: "جایی برای نوشتن، فکر کردن و یادداشت‌های شخصی"
+
+url: "https://behzad-shakouri.github.io"
 
 # قالب Minimal Mistakes
 remote_theme: "mmistakes/minimal-mistakes"
@@ -7,6 +10,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 # پلاگین‌های لازم برای GitHub Pages
 plugins:
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # تنظیمات فارسی و راست‌چین
 locale: "fa"
