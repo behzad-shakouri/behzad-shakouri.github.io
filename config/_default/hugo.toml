@@ -2,22 +2,20 @@
 # Hugo Configuration
 # -------------------------------------------------------------------------------------
 
-# عنوان وبلاگ
 title = "وبلاگ بهزاد شکوری"
-
-# آدرس دقیق وبلاگ
 baseURL = "https://behzad-shakouri.github.io/"
 
-# تنظیمات زبان فارسی و راست‌چین (طبق متغیرهای جدید هیوگو)
+# تنظیم زبان اصلی و راست‌چین
 defaultContentLanguage = "fa"
 locale = "fa-IR"
-hasCJKLanguage = false
 
-[languages.fa]
-  weight = 1
-  locale = "fa-IR"
-  label = "فارسی"
-  contentDir = "content"
+[languages]
+  [languages.fa]
+    weight = 1
+    locale = "fa-IR"
+    label = "فارسی"
+    languageName = "فارسی"
+    contentDir = "content"
 
 # تنظیمات عمومی و سئو
 enableEmoji = true
@@ -25,7 +23,7 @@ enableGitInfo = true
 enableRobotsTXT = true
 mainSections = ["posts"]
 
-# فراخوانی صحیح ماژول قالب FixIt
+# تنظیمات ماژول و اتصال قالب FixIt
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
