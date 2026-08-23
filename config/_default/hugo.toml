@@ -3,14 +3,6 @@ baseURL = "https://behzad-shakouri.github.io/"
 
 defaultContentLanguage = "fa"
 
-[languages.fa]
-  weight = 1
-  languageName = "فارسی"
-  contentDir = "content"
-  [languages.fa.params]
-    locale = "fa-IR"
-    dir = "rtl"
-
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
