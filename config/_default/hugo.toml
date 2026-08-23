@@ -1,16 +1,14 @@
 title = "وبلاگ بهزاد شکوری"
 baseURL = "https://behzad-shakouri.github.io/"
 
-# تنظیم زبان پیش‌فرض
 defaultContentLanguage = "fa"
-defaultContentLanguageInSubdir = false
 
-[languages]
-  [languages.fa]
-    weight = 1
-    languageCode = "fa-IR"
-    languageName = "فارسی"
-    contentDir = "content/fa"
+[languages.fa]
+  weight = 1
+  languageName = "فارسی"
+  contentDir = "content"
+  [languages.fa.params]
+    locale = "fa-IR"
     dir = "rtl"
 
 enableEmoji = true
