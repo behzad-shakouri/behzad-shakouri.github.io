@@ -1,27 +1,29 @@
 # -------------------------------------------------------------------------------------
 # Hugo Configuration
-# See: https://gohugo.io/configuration/all/
 # -------------------------------------------------------------------------------------
 
-# عنوان وبلاگ شما (می‌توانید متن دلخواه خود را بنویسید)
-title = "وبلاگ من"
+# عنوان وبلاگ
+title = "وبلاگ بهزاد شکوری"
 
-# آدرس وبلاگ شما (یوزرنیم گیت‌هاب خود را به جای username قرار دهید)
+# آدرس دقیق وبلاگ
 baseURL = "https://behzad-shakouri.github.io/"
 
-# تنظیم زبان اصلی وبلاگ روی فارسی (این بخش وبلاگ را راست‌چین می‌کند)
+# تنظیم قالب اصلی
+theme = ["FixIt"]
+
+# تنظیمات کامل زبان فارسی و راست‌چین (RTL)
 defaultContentLanguage = "fa"
-languageCode = "fa-ir"
-languageName = "فارسی"
+languageCode = "fa-IR"
+hasCJKLanguage = false
 
-# پشتیبانی از ایموجی‌ها
+[languages.fa]
+  weight = 1
+  languageCode = "fa-IR"
+  languageName = "فارسی"
+  contentDir = "content"
+
+# تنظیمات عمومی سئو و امکانات
 enableEmoji = true
-
-# استفاده از کدهای Commit گیت برای تاریخ بروزرسانی
 enableGitInfo = true
-
-# ساخت فایل robots.txt برای سئو
 enableRobotsTXT = true
-
-# بخش اصلی مطالب وبلاگ
 mainSections = ["posts"]
