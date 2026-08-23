@@ -3,29 +3,25 @@
 # See: https://gohugo.io/configuration/all/
 # -------------------------------------------------------------------------------------
 
-# website title
-title = ""
-# Hostname (and path) to the root
-baseURL = "http://localhost:1313"
-# theme list
-# theme = ["FixIt"] # enable in your site config file
-# determines default content language ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
-# language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
-# language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
-# whether to include Chinese/Japanese/Korean
-hasCJKLanguage = false
-# copyright description used only for seo schema
-copyright = ""
-# whether to use robots.txt
-enableRobotsTXT = true
-# whether to use git commit log
-enableGitInfo = true
-# whether to use emoji code
+# عنوان وبلاگ شما (می‌توانید متن دلخواه خود را بنویسید)
+title = "وبلاگ من"
+
+# آدرس وبلاگ شما (یوزرنیم گیت‌هاب خود را به جای username قرار دهید)
+baseURL = "https://behzad-shakouri.github.io/"
+
+# تنظیم زبان اصلی وبلاگ روی فارسی (این بخش وبلاگ را راست‌چین می‌کند)
+defaultContentLanguage = "fa"
+languageCode = "fa-ir"
+languageName = "فارسی"
+
+# پشتیبانی از ایموجی‌ها
 enableEmoji = true
-# the main sections of a site
-# if set, the MainSections method on the Site object returns the given sections,
-# otherwise it returns the section with the most pages.
-# mainSections = ["posts"]
+
+# استفاده از کدهای Commit گیت برای تاریخ بروزرسانی
+enableGitInfo = true
+
+# ساخت فایل robots.txt برای سئو
+enableRobotsTXT = true
+
+# بخش اصلی مطالب وبلاگ
+mainSections = ["posts"]
