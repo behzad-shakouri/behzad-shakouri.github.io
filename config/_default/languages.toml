@@ -3,7 +3,7 @@
   languageName = "فارسی"
   weight = 1
   hasCJKLanguage = false
-  # تنظیم راست‌چین‌سازی بومی FixIt
+
   [fa.params]
     locale = "fa-IR"
     dir = "rtl"
