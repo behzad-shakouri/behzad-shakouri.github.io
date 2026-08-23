@@ -8,22 +8,24 @@ title = "وبلاگ بهزاد شکوری"
 # آدرس دقیق وبلاگ
 baseURL = "https://behzad-shakouri.github.io/"
 
-# تنظیم قالب اصلی
-theme = ["FixIt"]
-
-# تنظیمات کامل زبان فارسی و راست‌چین (RTL)
+# تنظیمات زبان فارسی و راست‌چین (طبق متغیرهای جدید هیوگو)
 defaultContentLanguage = "fa"
-languageCode = "fa-IR"
+locale = "fa-IR"
 hasCJKLanguage = false
 
 [languages.fa]
   weight = 1
-  languageCode = "fa-IR"
-  languageName = "فارسی"
+  locale = "fa-IR"
+  label = "فارسی"
   contentDir = "content"
 
-# تنظیمات عمومی سئو و امکانات
+# تنظیمات عمومی و سئو
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
 mainSections = ["posts"]
+
+# فراخوانی صحیح ماژول قالب FixIt
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-fixit/FixIt"
