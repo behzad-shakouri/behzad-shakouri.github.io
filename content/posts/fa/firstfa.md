@@ -4,7 +4,7 @@ date: 2022-08-23
 draft: false
 categories: ["عمومی"]
 tags: ["شروع"]
-language: fa
+dir: rtl
 ---
 
 این اولین نوشته فارسی من است.
