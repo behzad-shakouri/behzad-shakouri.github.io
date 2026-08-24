@@ -1,4 +1,0 @@
----
-title: "برچسب‌ها"
-summary: "tags"
----
