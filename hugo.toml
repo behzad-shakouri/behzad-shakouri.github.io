@@ -6,9 +6,11 @@ theme = 'PaperMod'
 defaultContentLanguage = 'fa'
 defaultContentLanguageInSubdir = false
 
-# این خط باعث می‌شود تمام صفحات اتوماتیک هیوگو هم RTL شوند
 [params]
+  # اعمال جهت RTL به کل قالب
   dir = 'rtl'
+  RTL = true
+  
   env = 'production'
   description = 'وبلاگ شخصی بهزاد شکوری درباره مدیریت محصول و تفکر سیستمی'
   author = 'بهزاد شکوری'
@@ -30,8 +32,10 @@ defaultContentLanguageInSubdir = false
   [languages.fa]
     label = 'فارسی'
     weight = 1
+    languageCode = 'fa-IR'
     [languages.fa.params]
       dir = 'rtl'
+      RTL = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
