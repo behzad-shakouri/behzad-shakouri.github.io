@@ -6,10 +6,6 @@ theme = 'PaperMod'
 defaultContentLanguage = 'fa'
 defaultContentLanguageInSubdir = false
 
-[taxonomies]
-  category = 'categories'
-  tag = 'tags'
-
 [params]
   dir = 'rtl'
   RTL = true
@@ -36,9 +32,6 @@ defaultContentLanguageInSubdir = false
     label = 'فارسی'
     weight = 1
     languageCode = 'fa-IR'
-    [languages.fa.taxonomies]
-      categories = 'دسته‌بندی‌ها'
-      tags = 'برچسب‌ها'
     [languages.fa.params]
       dir = 'rtl'
       RTL = true
