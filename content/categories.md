@@ -1,4 +1,0 @@
----
-title: "دسته‌بندی‌ها"
-summary: "categories"
----
