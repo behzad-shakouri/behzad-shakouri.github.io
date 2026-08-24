@@ -1,0 +1,49 @@
+baseURL = 'https://behzad-shakouri.github.io/'
+languageCode = 'fa-ir'
+title = 'وبلاگ بهزاد شکوری'
+theme = 'PaperMod'
+
+defaultContentLanguage = 'fa'
+
+[languages]
+  [languages.fa]
+    languageName = 'فارسی'
+    weight = 1
+    [languages.fa.params]
+      dir = 'rtl'
+
+[params]
+  env = 'production'
+  description = 'وبلاگ شخصی بهزاد شکوری درباره مدیریت محصول و تفکر سیستمی'
+  author = 'بهزاد شکوری'
+  
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowWordNums = true
+  
+  [params.homeInfoParams]
+    Title = 'به وبلاگ من خوش آمدید 👋'
+    Content = 'اینجا درباره مدیریت محصول، تفکر سیستمی و یادداشت‌های روزانه می‌نویسم.'
+
+[menu]
+  [[menu.main]]
+    name = 'آرشیو'
+    url = '/archives/'
+    weight = 10
+  [[menu.main]]
+    name = 'دسته‌بندی‌ها'
+    url = '/categories/'
+    weight = 20
+  [[menu.main]]
+    name = 'برچسب‌ها'
+    url = '/tags/'
+    weight = 30
+  [[menu.main]]
+    name = 'جستجو'
+    url = '/search/'
+    weight = 40
