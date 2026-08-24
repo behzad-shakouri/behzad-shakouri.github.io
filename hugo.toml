@@ -47,3 +47,6 @@ defaultContentLanguage = 'fa'
     name = 'جستجو'
     url = '/search/'
     weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
