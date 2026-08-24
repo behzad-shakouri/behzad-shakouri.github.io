@@ -37,8 +37,8 @@ defaultContentLanguageInSubdir = false
     weight = 1
     languageCode = 'fa-IR'
     [languages.fa.taxonomies]
-      category = 'دسته‌بندی‌ها'
-      tag = 'برچسب‌ها'
+      categories = 'دسته‌بندی‌ها'
+      tags = 'برچسب‌ها'
     [languages.fa.params]
       dir = 'rtl'
       RTL = true
