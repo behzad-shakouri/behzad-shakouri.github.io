@@ -1,13 +1,13 @@
 baseURL = 'https://behzad-shakouri.github.io/'
-languageCode = 'fa-ir'
+locale = 'fa-IR'
 title = 'وبلاگ بهزاد شکوری'
-theme = ['github.com/adityatelange/hugo-PaperMod']
+theme = 'PaperMod'
 
 defaultContentLanguage = 'fa'
 
 [languages]
   [languages.fa]
-    languageName = 'فارسی'
+    label = 'فارسی'
     weight = 1
     [languages.fa.params]
       dir = 'rtl'
