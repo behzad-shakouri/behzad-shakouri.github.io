@@ -4,15 +4,11 @@ title = 'وبلاگ بهزاد شکوری'
 theme = 'PaperMod'
 
 defaultContentLanguage = 'fa'
+defaultContentLanguageInSubdir = false
 
-[languages]
-  [languages.fa]
-    label = 'فارسی'
-    weight = 1
-    [languages.fa.params]
-      dir = 'rtl'
-
+# این خط باعث می‌شود تمام صفحات اتوماتیک هیوگو هم RTL شوند
 [params]
+  dir = 'rtl'
   env = 'production'
   description = 'وبلاگ شخصی بهزاد شکوری درباره مدیریت محصول و تفکر سیستمی'
   author = 'بهزاد شکوری'
@@ -29,6 +25,16 @@ defaultContentLanguage = 'fa'
   [params.homeInfoParams]
     Title = 'به وبلاگ من خوش آمدید 👋'
     Content = 'اینجا درباره مدیریت محصول، تفکر سیستمی و یادداشت‌های روزانه می‌نویسم.'
+
+[languages]
+  [languages.fa]
+    label = 'فارسی'
+    weight = 1
+    [languages.fa.params]
+      dir = 'rtl'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [menu]
   [[menu.main]]
@@ -47,6 +53,3 @@ defaultContentLanguage = 'fa'
     name = 'جستجو'
     url = '/search/'
     weight = 40
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
