@@ -1,5 +1,5 @@
 baseURL = 'https://behzad-shakouri.github.io/'
-locale = 'fa-IR'
+languageCode = 'fa-IR'
 title = 'وبلاگ بهزاد شکوری'
 theme = 'PaperMod'
 
@@ -7,10 +7,8 @@ defaultContentLanguage = 'fa'
 defaultContentLanguageInSubdir = false
 
 [params]
-  # اعمال جهت RTL به کل قالب
   dir = 'rtl'
   RTL = true
-  
   env = 'production'
   description = 'وبلاگ شخصی بهزاد شکوری درباره مدیریت محصول و تفکر سیستمی'
   author = 'بهزاد شکوری'
@@ -30,6 +28,7 @@ defaultContentLanguageInSubdir = false
 
 [languages]
   [languages.fa]
+    languageName = 'فارسی'
     label = 'فارسی'
     weight = 1
     languageCode = 'fa-IR'
