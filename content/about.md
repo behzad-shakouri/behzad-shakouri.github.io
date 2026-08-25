@@ -77,9 +77,7 @@ showToc: false
   <a href="https://virgool.io/@behzadshakouri" target="_blank" class="custom-card">
     ✍️ نوشته‌ها در ویرگول
   </a>
-  <a href="https://behzadshakouri.blogspot.com/" target="_blank" class="custom-card">
-    🌐 وبلاگ قدیمی (Blogspot)
-  </a>
+  
 </div>
 
 ---
