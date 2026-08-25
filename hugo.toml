@@ -69,3 +69,6 @@ defaultContentLanguageInSubdir = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params.assets]
+  customCSS = ["css/custom.css"]
