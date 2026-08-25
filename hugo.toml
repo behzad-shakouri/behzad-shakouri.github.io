@@ -21,6 +21,10 @@ defaultContentLanguageInSubdir = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowWordNums = true
+
+  # تنظیمات فهرست مطالب (Table of Contents)
+  ShowToc = true
+  TocOpen = true
   
   [params.homeInfoParams]
     Title = 'به وبلاگ من خوش آمدید 👋'
@@ -56,3 +60,7 @@ defaultContentLanguageInSubdir = false
     name = 'جستجو'
     url = '/search/'
     weight = 40
+  [[menu.main]]
+    name = 'درباره من'
+    url = '/about/'
+    weight = 50
