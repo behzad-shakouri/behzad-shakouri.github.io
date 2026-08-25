@@ -21,11 +21,15 @@ defaultContentLanguageInSubdir = false
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   ShowWordNums = true
+  ShowBreadCrumbs = true
 
   # تنظیمات فهرست مطالب (Table of Contents)
   ShowToc = true
   TocOpen = true
-  
+
+  [params.toc]
+    open = true
+
   [params.homeInfoParams]
     Title = 'به وبلاگ من خوش آمدید 👋'
     Content = 'اینجا درباره مدیریت محصول، تفکر سیستمی و یادداشت‌های روزانه می‌نویسم.'
