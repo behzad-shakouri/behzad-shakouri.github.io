@@ -5,7 +5,6 @@ theme = 'PaperMod'
 
 defaultContentLanguage = 'fa'
 defaultContentLanguageInSubdir = false
-disableHugoGeneratorInject = true
 
 [params]
   dir = 'rtl'
@@ -24,9 +23,8 @@ disableHugoGeneratorInject = true
   ShowWordNums = true
   ShowBreadCrumbs = true
 
-  # تنظیم فوتر اختصاصی
+  # متن فوتر اختصاصی
   copyright = '© ۲۰۲۶ بهزاد شکوری'
-  showFooter = true
 
   # تنظیمات فهرست مطالب (Table of Contents)
   ShowToc = true
