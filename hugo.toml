@@ -23,6 +23,11 @@ defaultContentLanguageInSubdir = false
   ShowWordNums = true
   ShowBreadCrumbs = true
 
+  # تنظیمات متن فوتر
+  copyright = '© ۲۰۲۶ بهزاد شکوری'
+  hideFooter = false
+  ShowFullTextInRFC2822 = false
+
   # تنظیمات فهرست مطالب (Table of Contents)
   ShowToc = true
   TocOpen = true
@@ -30,9 +35,22 @@ defaultContentLanguageInSubdir = false
   [params.toc]
     open = true
 
+  # کادر خوش‌آمدگویی صفحه اصلی همراه با آیکون‌های ارتباطی
   [params.homeInfoParams]
     Title = 'به وبلاگ من خوش آمدید 👋'
     Content = 'اینجا درباره مدیریت محصول، تفکر سیستمی و یادداشت‌های روزانه می‌نویسم.'
+
+  [[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/behzad-shakouri/'
+
+  [[params.socialIcons]]
+    name = 'telegram'
+    url = 'https://t.me/behzad_shakouri'
+
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:shakoorib@gmail.com'
 
 [languages]
   [languages.fa]
