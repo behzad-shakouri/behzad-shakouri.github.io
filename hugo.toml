@@ -33,6 +33,13 @@ defaultContentLanguageInSubdir = false
   [params.toc]
     open = true
 
+  # تنظیمات آیکون مرورگر (Favicon)
+  [params.assets]
+    favicon = "assets/favicon.png"
+    favicon16x16 = "assets/favicon.png"
+    favicon32x32 = "assets/favicon.png"
+    apple_touch_icon = "assets/favicon.png"
+
   # کادر خوش‌آمدگویی صفحه اصلی همراه با آیکون‌های ارتباطی
   [params.homeInfoParams]
     Title = 'به وبلاگ من خوش آمدید 👋'
