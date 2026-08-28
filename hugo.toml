@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
   ShowWordNums = true
   ShowBreadCrumbs = true
 
-  # متن فوتر اختصاصی
+  # متن کپی‌رایت فوتر
   copyright = '© ۲۰۲۶ بهزاد شکوری'
 
   # تنظیمات فهرست مطالب (Table of Contents)
