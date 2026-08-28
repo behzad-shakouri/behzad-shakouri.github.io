@@ -1,10 +1,11 @@
 baseURL = 'https://behzad-shakouri.github.io/'
-languageCode = 'fa-IR'
+locale = 'fa-IR'
 title = 'وبلاگ بهزاد شکوری'
 theme = 'PaperMod'
 
 defaultContentLanguage = 'fa'
 defaultContentLanguageInSubdir = false
+disableHugoGeneratorInject = true
 
 [params]
   dir = 'rtl'
@@ -23,10 +24,9 @@ defaultContentLanguageInSubdir = false
   ShowWordNums = true
   ShowBreadCrumbs = true
 
-  # تنظیمات متن فوتر
+  # تنظیم فوتر اختصاصی
   copyright = '© ۲۰۲۶ بهزاد شکوری'
-  hideFooter = false
-  ShowFullTextInRFC2822 = false
+  showFooter = true
 
   # تنظیمات فهرست مطالب (Table of Contents)
   ShowToc = true
@@ -54,10 +54,9 @@ defaultContentLanguageInSubdir = false
 
 [languages]
   [languages.fa]
-    languageName = 'فارسی'
     label = 'فارسی'
     weight = 1
-    languageCode = 'fa-IR'
+    locale = 'fa-IR'
     [languages.fa.params]
       dir = 'rtl'
       RTL = true
