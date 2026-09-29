@@ -3,7 +3,7 @@ title: 'حباب‌های حق'
 date: 2025-10-02T00:00:00+03:30
 draft: false
 tags: ["یادداشت", "تاملات", "جامعه", "اخلاق"]
-categories: ["نوشته‌ها"]
+categories: ["یادداشت‌ها"]
 author: "بهزاد شکوری"
 showToc: true
 cover:
