@@ -2,8 +2,8 @@
 title: "اولین نوشته من"
 date: 2020-08-23
 draft: false
-tags: ["یادداشت ها"]
-categories: ["وبلاگ"]
+tags: ["شروع"]
+categories: ["یادداشت‌ها"]
 
 cover:
     image: "/images/avatar2.jpg" # آدرس عکس
