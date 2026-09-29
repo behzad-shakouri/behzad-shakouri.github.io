@@ -1,6 +1,6 @@
 baseURL = 'https://behzadshakouri.ir/'
 locale = 'fa-IR'
-title = 'وبلاگ بهزاد شکوری'
+title = 'بهزاد شکوری'
 theme = 'PaperMod'
 
 defaultContentLanguage = 'fa'
@@ -43,7 +43,7 @@ defaultContentLanguageInSubdir = false
   # کادر خوش‌آمدگویی صفحه اصلی همراه با آیکون‌های ارتباطی
   [params.homeInfoParams]
     Title = 'به وبلاگ من خوش آمدید 👋'
-    Content = 'اینجا درباره مدیریت محصول، تفکر سیستمی و یادداشت‌های روزانه می‌نویسم.'
+    Content = 'یادداشت‌های روزانه‌ام؛ از فکر و ایده تا چیزهایی که یاد می‌گیرم'
 
   [[params.socialIcons]]
     name = 'linkedin'
