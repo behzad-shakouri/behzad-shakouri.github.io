@@ -1,6 +1,6 @@
 ---
 title: "اولین نوشته من"
-date: 2020-08-23
+date: 1995-07-22
 draft: false
 tags: ["شروع"]
 categories: ["یادداشت‌ها"]
