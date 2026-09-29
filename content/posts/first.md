@@ -1,6 +1,6 @@
 ---
 title: "اولین نوشته من"
-date: 2026-08-23
+date: 2020-08-23
 draft: false
 tags: ["عمومی"]
 categories: ["وبلاگ"]
