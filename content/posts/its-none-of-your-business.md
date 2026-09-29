@@ -3,7 +3,7 @@ title: 'حباب «به شما ربطی ندارد»'
 date: 2025-10-02T00:00:00+03:30
 draft: false
 tags: ["یادداشت", "جامعه", "اخلاق", "مسئولیت-پذیری"]
-categories: ["نوشته‌ها"]
+categories: ["یادداشت‌ها"]
 author: "بهزاد شکوری"
 showToc: true
 cover:
