@@ -7,7 +7,7 @@ categories: ["آموزش‌ها"]
 author: "بهزاد شکوری"
 showToc: true
 cover:
-  image: "images/laptop-pc-buying-guide.jpg"
+  image: "images/laptop-pc-buying-guide.webp"
   alt: "راهنمای خرید کامپیوتر و لپ‌تاپ"
   caption: ""
   relative: false
