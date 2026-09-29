@@ -3,7 +3,7 @@ title: 'ولخرجی یا ولجمعی؟'
 date: 2026-01-21T00:00:00+03:30
 draft: false
 tags: ["یادداشت", "توسعه فردی", "نگرش", "تاملات"]
-categories: ["نوشته‌ها"]
+categories: ["یادداشت‌ها"]
 author: "بهزاد شکوری"
 showToc: true
 cover:
