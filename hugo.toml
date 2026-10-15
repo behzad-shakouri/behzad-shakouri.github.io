@@ -35,10 +35,10 @@ defaultContentLanguageInSubdir = false
 
   # تنظیمات آیکون مرورگر (Favicon)
   [params.assets]
-    favicon = "assets/favicon.png"
-    favicon16x16 = "assets/favicon.png"
-    favicon32x32 = "assets/favicon.png"
-    apple_touch_icon = "assets/favicon.png"
+    favicon = "assets/favicon.ico"
+    favicon16x16 = "assets/favicon.ico"
+    favicon32x32 = "assets/favicon.ico"
+    apple_touch_icon = "assets/favicon.ico"
 
   # کادر خوش‌آمدگویی صفحه اصلی همراه با آیکون‌های ارتباطی
   [params.homeInfoParams]
